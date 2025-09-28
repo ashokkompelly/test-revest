@@ -1,0 +1,32 @@
+[
+  {
+    "name": "fullName",
+    "label": "Name",
+    "type": "TEXT",
+    "required": true,
+    "defaultValue": ""
+  },
+  {
+    "name": "email",
+    "label": "Email",
+    "type": "TEXT",
+    "required": true,
+    "defaultValue": ""
+  },
+  {
+    "name": "gender",
+    "label": "Gender",
+    "type": "RADIO",
+    "required": true,
+    "defaultValue": "",
+    "options": ["Male", "Female", "Other"]
+  },
+  {
+    "name": "hobbies",
+    "label": "Hobbies",
+    "type": "LIST",
+    "required": false,
+    "defaultValue": "",
+    "options": ["Reading", "Traveling", "Gaming"]
+  }
+]
