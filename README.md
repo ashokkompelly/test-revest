@@ -20,8 +20,8 @@ app/
 │   ├── src/
 │   │   ├── main.ts
 │   │   ├── app.module.ts
-│   │   ├── products/
-│   │   └── orders/
+│   │   ├── services/products/
+│   │   └── services/orders/
 │   ├── package.json
 │   ├── tsconfig.json
 │   └── nest-cli.json
@@ -48,8 +48,8 @@ npm install
 npm run start:dev
 ```
 
-- Products API: `http://localhost:3000/products`  
-- Orders API: `http://localhost:3000/orders`  
+- Products API: `http://localhost:3001/products`  
+- Orders API: `http://localhost:3001/orders`  
 
 ### 3. Test APIs
 
@@ -94,7 +94,7 @@ npm install
 npm run dev
 ```
 
-- Open browser at `http://localhost:3001` (or the port your frontend uses)
+- Open browser at `http://localhost:3000` (or the port your frontend uses)
 
 ### 3. Features
 
